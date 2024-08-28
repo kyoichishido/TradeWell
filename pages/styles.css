@@ -1,0 +1,55 @@
+@import "~antd/dist/antd.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #d6eb16;
+    --dark-primary-color: #888526;
+}
+
+body {
+    position: fixed;
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Inter, Segoe UI,
+        Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+        Helvetica Neue, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        position: static;
+    }
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.ant-btn-primary, .ant-btn-primary:hover {
+    color: black !important;
+    text-shadow: none;
+    font-weight: 500;
+}
+.ant-btn-primary {
+    height: 40px;
+    line-height: 1;
+    font-size: 18px !important;
+    border-color: var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
+}
+.ant-btn-primary:hover {
+    background-color: var(--dark-primary-color) !important;
+    border-color: var(--dark-primary-color) !important;
+}
+
+[ant-click-animating-without-extra-node]:after {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}

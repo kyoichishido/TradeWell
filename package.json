@@ -1,0 +1,43 @@
+{
+  "name": "TradeWell",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "antd": "^4.6.3",
+    "axios": "^0.21.1",
+    "finnhub": "^1.2.1",
+    "firebase": "^7.15.5",
+    "firebase-admin": "^8.12.1",
+    "firestore-pagination-hook": "^1.0.0",
+    "framer-motion": "^2.6.13",
+    "lodash": "^4.17.20",
+    "next": "latest",
+    "nookies": "^2.4.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-firebaseui": "4.1.0",
+    "react-loading-skeleton": "^2.1.1",
+    "react-spinners": "^0.9.0",
+    "react-text-loop": "^2.3.0",
+    "react-twemoji": "^0.3.0",
+    "swr": "0.2.3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "prettier": "^2.1.1"
+  }
+}
